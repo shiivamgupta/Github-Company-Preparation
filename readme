@@ -1,0 +1,4 @@
+gcc -c -save-temps hello.c
+After running this command, the preprocessed output will be available in the file 'hello.i'. The -save-temps option also saves '.s' assembly files and '.o' object files in addition to preprocessed '.i' files.
+
+gcc -E hello.c
